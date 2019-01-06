@@ -63,6 +63,7 @@ hr {
     border: 0 none;
         }
 
+
 /* -------------- LINKS -------------------- */
 
 a {
@@ -130,6 +131,36 @@ img {
     padding: 0;
     max-width: 100%; /* This means that the images will resize to fit the parent container instead of just rendering at its native width and overflowing its containing box. */
 }} 
+/* ------------------ TABLE ---------------- */ 
+
+ table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+    
+}
+
+caption {
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+    }
+
+ th {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: #c06;}
+
+th, td {
+    padding: .6em;}
+
+table, td {
+   background: #BFBEBB;    
+   border: 1px solid #fff;
+} 
 
 
 /*----------------- FOOTER ------------------ */
